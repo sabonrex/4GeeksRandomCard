@@ -20,13 +20,13 @@ body {
   transform: rotate(180deg);
 }
 
-.top-suit {
+.top {
   font-size: 90px;
   position: absolute;
   top: 5px;
   left: 16px;
 }
-.bottom-suit {
+.bottom {
   position: absolute;
   font-size: 90px;
   bottom: 5px;

@@ -2,13 +2,10 @@
 import "bootstrap";
 import "./style.css";
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
 window.onload = function randomCard() {
-  const topSuit = document.querySelector("#top-suit");
-  const numberCard = document.querySelector("#num");
-  const bottomSuit = document.querySelector("#bottom-suit");
+  const topSuit = document.querySelector("#top");
+  const cardNum = document.querySelector("#num");
+  const bottomSuit = document.querySelector("#bottom");
   const button = document.querySelector("#button");
 
   let numbers = [
@@ -29,26 +26,26 @@ window.onload = function randomCard() {
   let suits = ["♦", "♥", "♠", "♣"];
 
   generateCard();
-  function randomValueOfArray(array) {
+  function randomArray(array) {
     let randomIndex = Math.floor(Math.random() * array.length);
     return array[randomIndex];
   }
 
   function generateCard() {
-    let paloRandom = randomValueOfArray(suits);
-    let numeroRandom = randomValueOfArray(numbers);
+    let randomSuit = randomArray(suits);
+    let randomNum = randomArray(numbers);
 
-    numberCard.innerHTML = numeroRandom;
-    topSuit.innerHTML = paloRandom;
-    bottomSuit.innerHTML = paloRandom;
-    if (paloRandom == suits[0] || paloRandom == suits[1]) {
+    cardNum.innerHTML = randomNum;
+    topSuit.innerHTML = randomSuit;
+    bottomSuit.innerHTML = randomSuit;
+    if (randomSuit == suits[0] || randomSuit == suits[1]) {
       topSuit.style.color = "red";
       bottomSuit.style.color = "red";
-      numberCard.style.color = "red";
+      cardNum.style.color = "red";
     } else {
       topSuit.style.color = "black";
       bottomSuit.style.color = "black";
-      numberCard.style.color = "black";
+      cardNum.style.color = "black";
     }
   }
 
