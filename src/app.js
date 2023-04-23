@@ -3,9 +3,9 @@ import "bootstrap";
 import "./style.css";
 
 window.onload = function randomCard() {
-  const topSuit = document.querySelector("#top");
+  const topSuit = document.querySelector("#top-suit");
   const cardNum = document.querySelector("#num");
-  const bottomSuit = document.querySelector("#bottom");
+  const bottomSuit = document.querySelector("#bottom-suit");
   const button = document.querySelector("#button");
 
   let numbers = [
