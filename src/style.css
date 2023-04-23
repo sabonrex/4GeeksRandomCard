@@ -1,42 +1,36 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background-color: green;
-    font-family: serif;
+body {
+  background-color: green;
+  font-family: serif;
 }
-.carta {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1%;
-    margin-bottom: none !important;
-    width: 300px;
-    height: 500px;
-    background-color: white;
-    border-radius: 30px;
-    padding: 1%; 
-
- 
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  margin-bottom: none !important;
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 1%;
 }
-.symbol{
-    font-size: 80px;
-    transform: rotate(180deg);
-
+.symbol {
+  font-size: 100px;
+  transform: rotate(180deg);
 }
 
-.top-suit{
-    font-size: 80px;
-    margin-left: 5%;
-    
+.top-suit {
+  font-size: 90px;
+  margin-left: 5%;
 }
-.bottom-suit{
-    font-size: 80px;
-    margin-right: 5%; 
-  
+.bottom-suit {
+  font-size: 90px;
+  margin-right: 5%;
 }
-.number{
-    margin: auto;
-    text-align: center;
-    font-size: 100px;
-    padding: 16%;
-   
+.number {
+  margin: auto;
+  text-align: center;
+  font-size: 100px;
+  padding: 16%;
 }
