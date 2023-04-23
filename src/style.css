@@ -17,18 +17,14 @@ body {
 .top-suit {
   font-size: 100px;
   position: absolute;
-  top: 5px;
-  left: 10px;
 }
 .bottom-suit {
   position: absolute;
   font-size: 100px;
-  bottom: 20px;
-  right: 10px;
 }
 .number {
   margin: auto;
   text-align: center;
   font-size: 100px;
-  padding: 16%;
+  padding: 10%;
 }
