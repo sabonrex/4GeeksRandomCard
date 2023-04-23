@@ -22,11 +22,15 @@ body {
 
 .top-suit {
   font-size: 90px;
-  margin-left: 5%;
+  position: absolute;
+  top: 5px;
+  left: 16px;
 }
 .bottom-suit {
+  position: absolute;
   font-size: 90px;
-  margin-right: 5%;
+  bottom: 5px;
+  right: 16px;
 }
 .number {
   margin: auto;
