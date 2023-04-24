@@ -16,11 +16,11 @@ body {
 }
 .top-suit {
   font-size: 150px;
-  margin-left: 5%;
+  text-align: left;
 }
 .bottom-suit {
   font-size: 100px;
-  margin-right: 5%;
+  text-align: right;
 }
 .number {
   margin: auto;
