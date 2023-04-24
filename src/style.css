@@ -19,6 +19,7 @@ body {
   text-align: left;
 }
 .bottom-suit {
+  position:absolute
   font-size: 100px;
   text-align: right;
 }
