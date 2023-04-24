@@ -2,30 +2,39 @@
 
 body {
   background-color: green;
-  font-family: serif;
 }
-.card {
+.cardss {
+  place-content: normal;
+  margin-top: 50px;
+  contain: content;
   font-family: "Times New Roman", Times, serif;
-  position: static;
-  width: 330px;
-  height: 450px;
+  width: 100%;
+  width: 230px;
+  height: 350px;
   border-radius: 5px;
   border: 1px solid #ccc;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
   background-color: white;
+  margin-left: auto;
+  margin-right: auto;
 }
 .top-suit {
-  font-size: 150px;
+  font-size: 60px;
   text-align: left;
+  margin-left: 10px;
+  margin-bottom: 40px;
 }
-.bottom-suit {
-  position: absolute;
-  font-size: 100px;
-  text-align: right;
+.bottom {
+  display: inline;
+  font-size: 60px;
+  float: right;
+  margin-right: 10px;
+  padding-bottom: 40px;
 }
+
 .number {
   margin: auto;
   text-align: center;
-  font-size: 100px;
-  padding: 10%;
+  font-size: 80px;
+  padding: 5%;
 }

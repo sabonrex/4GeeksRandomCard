@@ -11,23 +11,29 @@
       crossorigin="anonymous"
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
+
+    <link rel="stylesheet" type="text/css" href="src/style.css" />
   </head>
   <body>
     <div class="container">
-      <div class="card">
-        <div id="top-suit">
-          <div></div>
+      <div class="cardss">
+        <div class="top-suit">
+          <div id="top-suit"></div>
         </div>
         <div id="num" class="number"></div>
-        <div id="bottom-suit">
-          <div></div>
+        <div></div>
+        <div class="bottom">
+          <div id="bottom" class="symbol"></div>
         </div>
       </div>
     </div>
-
     <div class="container container-fluid d-flex justify-content-center p-3 ">
-      <button type="button" id="button" class="btn btn-dark btn-lg btn-block">
-        Create a random card
+      <button
+        onclick="generateCard()"
+        id="button"
+        class="btn btn-sm btn-success shadow rounded p-1"
+      >
+        Click me to get a new card
       </button>
     </div>
 
